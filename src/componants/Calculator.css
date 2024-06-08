@@ -1,0 +1,36 @@
+
+.container{
+    width: 250px;
+    height:250px;
+    margin: auto;
+    margin-top:10vh;
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+}
+
+button.operator{
+    background-color: lightgrey;
+}
+
+button{
+    height:60px;
+    width:60px;
+    border:1px solid grey;
+    font-size: medium;
+    background-color: #fff;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 240px;
+    height:50px;
+    text-align: right;
+    border: 1px solid black;
+    border-radius:2px;
+    font-size: 30px;
+}
